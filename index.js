@@ -1,14 +1,14 @@
-let nivelDeXP = "12.000"
+let nivelDeXP = "1.500"
 let nome = "Naruto"
 
 if(nivelDeXP <= 1.000 ){
     console.log("Nivel de xp ferro: ")
-}else if(nivelDeXP === 1.001  <= 2.000){
+}else if(nivelDeXP >= 1.001){
     console.log("Nivel de xp broze: ")
-}else(nivelDeXP === 2.001  <= 5.000)
+}else{(nivelDeXP >= 2.001)
+console.log("Nivel de xp broze: ")
+}
 
+console.log("o herói de nome: " + nome + " esta no nivel " + nivelDeXP)
 
-
-console.log("o herói de nome: " + nome)
-console.log("o nivel de xp é: " +  nivelDeXP)
 
